@@ -37,7 +37,6 @@ td {
 
 /* Table Content Styling */
 td:nth-child(2) {
-    text-decoration: underline;
     color: #333;
 }
 
