@@ -1,0 +1,66 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading Styling */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Table Header */
+td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Table Content Styling */
+td:nth-child(2) {
+    text-decoration: underline;
+    color: #333;
+}
+
+/* Link Styling */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the Last Row (with the link) */
+table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    table {
+        width: 90%;
+    }
+}
